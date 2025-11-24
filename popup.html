@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="__MSG_htmlLang__">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>__MSG_extensionName__</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>__MSG_extensionName__</h1>
+    <form id="settings-form">
+      <label for="api-url">__MSG_apiUrlLabel__</label>
+      <input id="api-url" name="apiUrl" type="url" placeholder="__MSG_apiUrlPlaceholder__" required />
+      <label for="api-key">__MSG_apiKeyLabel__</label>
+      <input id="api-key" name="apiKey" type="text" placeholder="__MSG_apiKeyPlaceholder__" />
+      <label for="language-select">__MSG_languageLabel__</label>
+      <select id="language-select" name="language"></select>
+      <button type="submit">__MSG_saveSettingsButton__</button>
+    </form>
+    <button id="send-button" class="action" type="button">__MSG_sendButtonLabel__</button>
+    <div id="status" role="status" aria-live="polite"></div>
+    <div id="communication">
+      <p>__MSG_communicationHeading__</p>
+      <pre id="log" aria-live="polite"></pre>
+    </div>
+  </div>
+  <script src="localization.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

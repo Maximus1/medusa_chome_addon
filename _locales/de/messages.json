@@ -1,0 +1,32 @@
+{
+  "extensionName": { "message": "Medusa Serienimporter" },
+  "extensionDescription": {
+    "message": "Sende Serien-IDs von TVDB, IMDb, TVmaze oder TMDB an Medusa PVR"
+  },
+  "htmlLang": { "message": "de" },
+  "apiUrlLabel": { "message": "Medusa API-URL" },
+  "apiUrlPlaceholder": { "message": "https://medusa.local/api/v2/series" },
+  "apiKeyLabel": { "message": "API-Schlüssel (optional)" },
+  "apiKeyPlaceholder": { "message": "X-Api-Key-Wert" },
+  "languageName": { "message": "Deutsch" },
+  "languageLabel": { "message": "Sprache" },
+  "saveSettingsButton": { "message": "Einstellungen speichern" },
+  "sendButtonLabel": { "message": "Aktuelle Serie hinzufügen" },
+  "communicationHeading": { "message": "Letzte Kommunikation" },
+  "statusMissingApiUrlField": { "message": "Medusa API-URL ist erforderlich." },
+  "statusSettingsSaved": { "message": "Einstellungen gespeichert." },
+  "statusDetectingSeries": { "message": "Serie wird ermittelt…" },
+  "statusNoActiveTab": { "message": "Kein aktiver Tab gefunden." },
+  "statusNoSupportedSeries": { "message": "Keine unterstützte Serie erkannt." },
+  "statusSeriesNotProcessable": { "message": "Serie kann für Medusa nicht verarbeitet werden." },
+  "statusMissingApiUrlSetting": { "message": "Medusa API-URL fehlt." },
+  "statusInvalidApiUrl": { "message": "Medusa API-URL ist ungültig." },
+  "statusSeriesSent": { "message": "Serie an Medusa gesendet ($1: $2)." },
+  "statusError": { "message": "Fehler: $1" },
+  "networkError": { "message": "Netzwerkfehler: $1" },
+  "apiErrorCode": { "message": "Code $1" },
+  "httpStatusError": { "message": "HTTP $1" },
+  "contentAddToMedusa": { "message": "Zu Medusa hinzufügen" },
+  "contentAdded": { "message": "✓ Zu Medusa hinzugefügt" },
+  "contentError": { "message": "Fehler beim Hinzufügen zu Medusa" }
+}
