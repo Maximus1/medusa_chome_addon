@@ -4,7 +4,6 @@ Eine Browser-Erweiterung für Google Chrome (und kompatible Browser), um Serien 
 
 ## Features
 
--   **Direkte Integration:** Fügt einen "Zu Medusa hinzufügen"-Button direkt auf den Detailseiten von Serien ein.
 -   **Breite Unterstützung:** Funktioniert mit TheTVDB, IMDb (aktuell leider nicht), TVmaze und TheMovieDB.
 -   **Popup-Funktionalität:** Ermöglicht das Hinzufügen der Serie aus dem aktiven Tab über das Extension-Icon.
 -   **Einfache Konfiguration:** Einmalige Einrichtung der Medusa API-URL und des API-Schlüssels.
@@ -14,7 +13,6 @@ Eine Browser-Erweiterung für Google Chrome (und kompatible Browser), um Serien 
 ## Unterstützte Webseiten
 
 -   TheTVDB
--   IMDb
 -   TVmaze
 -   TheMovieDB (TMDB)
 
@@ -42,13 +40,10 @@ Bevor Sie die Erweiterung nutzen können, müssen Sie die Verbindung zu Ihrer Me
 
 ## Verwendung
 
-Es gibt zwei Wege, eine Serie hinzuzufügen:
+Es gibt einen Weg, eine Serie hinzuzufügen:
 
 ### 1. Über den Button auf der Webseite
-
--   Navigieren Sie zu einer Serien-Detailseite auf einer der unterstützten Webseiten (z.B. die TVDB-Seite von "Breaking Bad").
--   Neben dem Serientitel erscheint ein Button **"Zu Medusa hinzufügen"**.
--   Ein Klick darauf sendet die Serie direkt an Medusa. Der Button-Text ändert sich kurzzeitig, um den Erfolg oder einen Fehler anzuzeigen.
+-   Vielleicht später
 
 ### 2. Über das Popup-Menü
 
